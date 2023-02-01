@@ -17,5 +17,12 @@
             "name": "Luis Suarez",
             "email": "it@nes360.org"
         }
-    ]
+    ],
+    "homepage": "https://nes360.org",
+    "support": {
+        "issues": "https://github.com/nes360org/countries-cities-world.git",
+        "source": "https://github.com/nes360org/countries-cities-world.git"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
