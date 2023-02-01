@@ -1,5 +1,5 @@
 {
-    "name": "root/countries-cities-world",
+    "name": "nes360org/countries-cities-world",
     "description": "it is the package by connect restcountries wiht API get counties and citys",
     "type": "library",
     "require": {
