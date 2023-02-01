@@ -6,7 +6,7 @@ use GuzzleHttp\Client;
 
 class CountriesCitiesWorld
 {
-    public function getPaises()
+    public function getCountries()
     {
         $client = new Client();
         $response = $client->get('https://restcountries.com/v3.1/all');
@@ -15,7 +15,7 @@ class CountriesCitiesWorld
         return $paises;
     }
 
-    public function getCiudades(string $pais)
+    public function getCities(string $pais)
     {
         $client = new Client();
         $response = $client->get('https://restcountries.com/v3.1/name/'.$pais);
