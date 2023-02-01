@@ -2,6 +2,7 @@
     "name": "nes360org/countries-cities-world",
     "description": "it is the package by connect restcountries wiht API get counties and citys",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^8.0",
         "guzzlehttp/guzzle": "7.5.0"
