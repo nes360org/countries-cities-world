@@ -9,8 +9,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Root\\CountriesCitiesWorld\\": "src/"
-        }
+            "Nes360org\\CountriesCitiesWorld\\": "src/"
+        },
+        "classmap": [
+            "src/CountriesCitiesWorldServiceProvider.php"
+        ]
     },
     "authors": [
         {
@@ -22,6 +25,12 @@
     "support": {
         "issues": "https://github.com/nes360org/countries-cities-world.git",
         "source": "https://github.com/nes360org/countries-cities-world.git"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
